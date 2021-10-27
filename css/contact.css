@@ -1,8 +1,10 @@
 .contact-content {
-  border-radius: 15px;
+  background-color: antiquewhite;
+  opacity: 0.8;
+  border-radius: 5px;
   height: 100vh;
   margin-top: 32px;
-  padding: 9px;
+  padding: 10px;
   position: relative;
   overflow: hidden;
 }
@@ -15,8 +17,8 @@
   top: 0;
   width: 100%;
   height: inherit;
-  /* opacity: 0.55; */
-  border-radius: 15px;
+  opacity: 0.55;
+  border-radius: 5px;
   z-index: -1;
 }
 
