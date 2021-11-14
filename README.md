@@ -1,10 +1,22 @@
 # Shravasti
 
-
 ![Logo](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/sharvast22.png?raw=true)
 
+### Shravasti was a city of ancient and one of the six largest cities in India during Gautama Buddha's lifetime. The city is located in the fertile Gangetic plains some 170 km NE of Lucknow. Shravasti rose to fame due to its association with Buddha and Mahavira and became one of the eight holy places of Buddhist pilgrimage. Buddha is said to have spent 24 rainy seasons besides performing the Twin Miracle of emanating fire and water from his body here. Besides, Suhaildev Wildlife Sanctuary provides the perfect nature trail options to tourists and pilgrims alike.
 
-### Animoto was founded in August 2006 by Jason Hsiao, Brad Jefferson, Steve Clifton and Tom Clifton because of the poor video quality found on the internet. Animoto’s patented Cinematic Artificial Intelligence technology allows users to turn photos, video clips and music into video slideshows. Animoto’s founders include former producers of ABC, MTV, VH1, Comedy Central and the Documentary Group.
+# About The Project
+
+### This is a personal project which I had to make on a theme so I decided to make it on the Shravasti district, Shravasti is a district of Uttar Pradesh that is known for the temples of Gautam Buddha and also known for its natural environment. I have completed my diploma from here for 3 years and I love this place so I have tried to make a small website on it so that people can know about it and my purpose for making this project is only my personal thinking and desire to improve my technical skills.
+
+# Technologies I Used
+
+- I used  [HTML-5](https://www.w3schools.com/html/) and [CSS-3](https://www.w3schools.com/css/default.asp) to make this blog.
+
+# Tools I Used
+
+-  [VS Code](https://code.visualstudio.com/download) to write code.
+-  [Github](https://github.com/shivam-singh-au17) to used for version control.
+
 
 # Steps to browse the project:
 
@@ -17,29 +29,13 @@ git clone https://github.com/shivam-singh-au17/shravasti-by-shivam-singh.git
 Go Live
 ```
 
-# My Agendas - 
-* Breaking the whole work into the smallest divisions according to our strong zone.
-* Setting up the deadline for every individual.
-* Review the code when someone is unable to make the part prominently.
-* Regular commits in GitHub and 2 times stand up so that everyone is updated accordingly.
-* If some flaws are found in the original website, try to solve them as well.
 
-# Technologies Used
-
-- I used  [HTML-5](https://www.w3schools.com/html/) and [CSS-3](https://www.w3schools.com/css/default.asp) to make this blog.
-
-# Tools
-
--  [VS Code](https://code.visualstudio.com/download) to write code.
--  [Github](https://github.com/shivam-singh-au17) to used for version control.
-
-## If you want to see our project click this URL => https://shravasti-by-shivam-singh.vercel.app/
+## If you want to see my project click this URL => https://shravasti-by-shivam-singh.vercel.app/
 
 
 # Some screenshots of my project
 
-
-#### 1. The look of the *HOME* page of our cloned website is as follows.
+#### 1. The look of the *HOME* page of my website is as follows.
 ![Screenshot (200)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(200).png?raw=true)
 
 ![Screenshot (201)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(201).png?raw=true)
@@ -85,15 +81,6 @@ These two challenges improve our abilities to be a good Team Player.</h5>
 
 **These challenges improve our abilities to be a good Team Player and finally we did the constitution of all the problems together and made our perfect project.**
 
-# Team members and contributors
-**By following a well-structured way, all of us successfully completed our responsibilities before the given time. The members of team DAMODAR are-**
-
-#### 1. Nilesh Kokate
-**Github:**  [nilpatil7744](https://github.com/nilpatil7744) 
-#### 2. Amit Kumar Mehta
-**Github:**  [amit-web](https://github.com/amit-web) 
-#### 3. Subhash Jha
-**Github:**  [subhash238](https://github.com/subhash238) 
 
 # Conclusion
 - I would like to thank, all of my team members, Nilesh Kokate, Subhash Jha and Amit Kumar Mehta for their contribution. 
