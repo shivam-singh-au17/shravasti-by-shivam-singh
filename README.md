@@ -69,7 +69,7 @@ Go Live
 #### 6. The look of the *INDIVIDUAL BLOG SECTION* of my website.
 ![Screenshot (210)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(210).png?raw=true)
 
-***So this was the project we have created with our efforts. We have added the screenshots for our audience to understand easily.***
+***So this was the project I have created with my efforts. I have added the screenshots for my audience to understand easily.***
 
 
 # challenges to build this website
