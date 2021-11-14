@@ -1,7 +1,7 @@
-# Animoto Clone
+# Shravasti
 
 
-![Logo](https://github.com/shivam-singh-au17/Project_Damodar/blob/master/Screenshots/animoto.png?raw=true)
+![Logo](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/sharvast22.png?raw=true)
 
 
 ### Animoto was founded in August 2006 by Jason Hsiao, Brad Jefferson, Steve Clifton and Tom Clifton because of the poor video quality found on the internet. Animoto’s patented Cinematic Artificial Intelligence technology allows users to turn photos, video clips and music into video slideshows. Animoto’s founders include former producers of ABC, MTV, VH1, Comedy Central and the Documentary Group.
@@ -10,14 +10,14 @@
 
 ### First you clone or download this project from here.
 ```
-git clone https://github.com/shivam-singh-au17/Project_Damodar.git
+git clone https://github.com/shivam-singh-au17/shravasti-by-shivam-singh.git
 ```
 ### You have to open this file in VS-code and go to index.html file and open it by the live server, your VS-code must have live-server installed. 
 ```
 Go Live
 ```
 
-# Our Agendas - 
+# My Agendas - 
 * Breaking the whole work into the smallest divisions according to our strong zone.
 * Setting up the deadline for every individual.
 * Review the code when someone is unable to make the part prominently.
@@ -26,50 +26,53 @@ Go Live
 
 # Technologies Used
 
-- We used  [HTML-5](https://www.w3schools.com/html/) ,  [CSS-3](https://www.w3schools.com/css/default.asp) for front-end.
-- We used  [Javascript](https://www.w3schools.com/js/default.asp) for back end.
-- And we are also used  [Bootstrap](https://getbootstrap.com/) for designing and layout.
+- I used  [HTML-5](https://www.w3schools.com/html/) and [CSS-3](https://www.w3schools.com/css/default.asp) to make this blog.
 
 # Tools
 
 -  [VS Code](https://code.visualstudio.com/download) to write code.
 -  [Github](https://github.com/shivam-singh-au17) to used for version control.
 
-# Tools for communication
+## If you want to see our project click this URL => https://shravasti-by-shivam-singh.vercel.app/
 
--  [Slack](https://slack.com/intl/en-in/) for communication.
--  [Zoom](https://zoom.us/) for show work.
 
-# Some screenshots of our project
+# Some screenshots of my project
 
-### If you want to see our project click this URL => https://project-damodar.vercel.app/
 
 #### 1. The look of the *HOME* page of our cloned website is as follows.
-![Screenshot (192)](https://github.com/shivam-singh-au17/Project_Damodar/blob/master/Screenshots/Screenshot%20(192).png?raw=true)
+![Screenshot (200)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(200).png?raw=true)
 
-![Screenshot (196)](https://github.com/shivam-singh-au17/Project_Damodar/blob/master/Screenshots/Screenshot%20(196).png?raw=true)
+![Screenshot (201)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(201).png?raw=true)
+
+![Screenshot (202)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(202).png?raw=true)
 
 
 #### 2. The look of the *FEATURES* page of our cloned website is as follows.
-![Screenshot (193)](https://github.com/shivam-singh-au17/Project_Damodar/blob/master/Screenshots/Screenshot%20(193).png?raw=true)
+![Screenshot (203)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(203).png?raw=true)
 
-![Screenshot (194)](https://github.com/shivam-singh-au17/Project_Damodar/blob/master/Screenshots/Screenshot%20(194).png?raw=true)
+![Screenshot (204)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(204).png?raw=true)
 
 
 #### 3. The look of the *LOGIN* page of our cloned website is as follows.
-![Screenshot (195)](https://github.com/shivam-singh-au17/Project_Damodar/blob/master/Screenshots/Screenshot%20(195).png?raw=true)
+![Screenshot (205)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(205).png?raw=true)
 
 
 #### 4. The look of the *PRICING* page of our cloned website is as follows.
-![Screenshot (197)](https://github.com/shivam-singh-au17/Project_Damodar/blob/master/Screenshots/Screenshot%20(197).png?raw=true)
+![Screenshot (206)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(206).png?raw=true)
 
 
 #### 5. The look of the *TEMPLATES* page of our cloned website is as follows.
-![Screenshot (198)](https://github.com/shivam-singh-au17/Project_Damodar/blob/master/Screenshots/Screenshot%20(198).png?raw=true)
+![Screenshot (207)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(207).png?raw=true)
 
 
 #### 6. The look of the *FOOTER* of our cloned website is as follows.
-![Screenshot (199)](https://github.com/shivam-singh-au17/Project_Damodar/blob/master/Screenshots/Screenshot%20(199).png?raw=true)
+![Screenshot (208)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(208).png?raw=true)
+
+![Screenshot (209)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(209).png?raw=true)
+
+![Screenshot (210)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(210).png?raw=true)
+
+![Screenshot (211)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(211).png?raw=true)
 
 ***So this was the project we have created with our efforts. We have added the screenshots for our audience to understand easily.***
 
