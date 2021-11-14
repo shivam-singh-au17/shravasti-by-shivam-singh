@@ -11,6 +11,7 @@
 # Technologies I Used
 
 - I used  [HTML-5](https://www.w3schools.com/html/) and [CSS-3](https://www.w3schools.com/css/default.asp) to make this blog.
+- And also used  [Bootstrap](https://getbootstrap.com/) for designing and layout.
 
 # Tools I Used
 
@@ -72,18 +73,15 @@ Go Live
 
 
 # challenges to build this website
-<h5>1. Communication
-Distance always matters for group work. As we are from different parts of India, miscommunications were the common challenges for us. But, we make it happen with the help of slack and WhatsApp.</h5>
-<h5>2. Collaboration
-As we are using Git collaboration, initially we were facing some technical issues, but continuously co-ordinations, make things easier. <br> <br>
-These two challenges improve our abilities to be a good Team Player.</h5>
+<h5>1. I really didn't understand how to build design and layout my website.</h5>
+<h5>2. I was finding this a very difficult task at first because I don't know much yet I have only learned about HTML and CSS so far you found it very challenging for me.</h5>
 
-**These challenges improve our abilities to be a good Team Player and finally we did the constitution of all the problems together and made our perfect project.**
+**But I was successful in making this project and as I went on making it, my enthusiasm kept increasing and I completed my project on time..**
 
 
 # Conclusion
-- I would like to thank, all of my team members, Nilesh Kokate, Subhash Jha and Amit Kumar Mehta for their contribution. 
-- This is my first group project and I had a great experience with this project because I learned to build a website with people.
-- I’m feeling very proud to get such hard-working team members and also feeling very fortunate for being a part of Masai School because of which I got the experience of cloning such a wonderful website.
+- I am really feeling very happy because I have completed mine well before the due time.. 
+- This was my first personal purpose on which I was working alone and I got a lot of confidence from it and I can make better projects from it in the future got inspired.
+- I would like to thank my teachers that they taught me so well that I did not have to face much trouble and I completed all the tasks.
 ### Thank you for giving it a read...
 
