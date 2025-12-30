@@ -34,40 +34,28 @@ Go Live
 ## If you want to see my project click this URL => https://shravasti-by-shivam-singh.vercel.app/
 
 
-# Some screenshots of my project
-
 #### 1. The look of the *HOME SECTION* of my website.
-![Screenshot (200)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(200).png?raw=true)
+![Screenshot (200)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/1.png?raw=true)
 
-![Screenshot (211)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(211).png?raw=true)
+![Screenshot (211)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/2.png?raw=true)
 
-![Screenshot (201)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(201).png?raw=true)
+![Screenshot (201)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/3.png?raw=true)
 
-![Screenshot (202)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(202).png?raw=true)
+![Screenshot (202)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/4.png?raw=true)
 
+![Screenshot (204)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/5.png?raw=true)
 
-#### 3. The look of the *ABOUT SECTION* of my website.
-![Screenshot (204)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(204).png?raw=true)
+![Screenshot (205)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/6.png?raw=true)
 
-![Screenshot (205)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(205).png?raw=true)
+![Screenshot (206)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/7.png?raw=true)
 
+![Screenshot (207)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/8.png?raw=true)
 
-#### 4. The look of the *Location SECTION* of my website.
-![Screenshot (206)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(206).png?raw=true)
+![Screenshot (208)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/9.png?raw=true)
 
-![Screenshot (207)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(207).png?raw=true)
+![Screenshot (209)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/10.png?raw=true)
 
-
-#### 6. The look of the *CONTACT SECTION* of my website.
-![Screenshot (208)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(208).png?raw=true)
-
-
-#### 6. The look of the *SEARCH SECTION* of my website.
-![Screenshot (209)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(209).png?raw=true)
-
-
-#### 6. The look of the *INDIVIDUAL BLOG SECTION* of my website.
-![Screenshot (210)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/Screenshot%20(210).png?raw=true)
+![Screenshot (210)](https://github.com/shivam-singh-au17/shravasti-by-shivam-singh/blob/master/Screenshot/11.png?raw=true)
 
 ***So this was the project I have created with my efforts. I have added the screenshots for my audience to understand easily.***
 
