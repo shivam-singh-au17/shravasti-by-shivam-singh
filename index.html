@@ -5,249 +5,402 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/utils.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mobile.css">
-    <link rel="stylesheet" href="/1.css">
-    <title>Shravasti - by Shivam Singh</title>
+    <title>Shravasti - Ancient Land of Enlightenment | Travel Blog</title>
+    <meta name="description"
+        content="Explore the sacred land of Shravasti where Buddha spent 24 rainy seasons. Discover ancient monasteries, stupas, and the rich Buddhist heritage of this holy pilgrimage site.">
 </head>
 
 <body>
-    <nav class="navigation max-width-1 m-auto">
-        <div class="nav-left">
-            <a href="/">
-                <span><img src="./img/shravasti-logo.png" width="130px" alt=""></span>
-            </a>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="./html/about.html">About</a></li>
-                <li><a href="./html/location.html">Location</a></li>
-                <li><a href="./html/contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="nav-right">
-            <form action="./html/search.html" method="get">
-                <input class="form-input" type="text" name="query" placeholder="Article Search">
-                <button class="btn">Search</button>
-            </form>
+    <!-- Navigation Bar -->
+    <nav class="navigation">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="/">
+                    <img src="./img/shravasti-logo.png" width="120px" alt="Shravasti Logo">
+                </a>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="./html/about.html">About</a></li>
+                    <li><a href="./html/location.html">Location</a></li>
+                    <li><a href="./html/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-search">
+                <form action="./html/search.html" method="get">
+                    <input class="search-input" type="text" name="query" placeholder="Search articles...">
+                    <button class="search-btn" type="submit">Search</button>
+                </form>
+            </div>
         </div>
     </nav>
 
-    <div class="video ">
-        <video autoplay loop>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <video class="hero-video" autoplay loop muted playsinline>
             <source src="./video/blogvideo.mp4" type="video/mp4">
         </video>
-
-        <div class="contentvid">
-            <h1 style="padding: 10px 0px;color: #ffe1b1;">MY SHRAVASTI
-            </h1>
-            <p> Shravasti was a city of ancient and one of the six largest cities in India during Gautama Buddha's
-                lifetime. The city is located in the fertile Gangetic plains some 170 km NE of Lucknow. Shravasti rose
-                to fame due to its association with Buddha and Mahavira and became one of the eight holy places of
-                Buddhist pilgrimage. Buddha is said to have spent 24 rainy seasons besides performing the Twin Miracle
-                of emanating fire and water from his body here. Besides, Suhaildev Wildlife Sanctuary provides the
-                perfect nature trail options to tourists and pilgrims alike.</p>
+        <div class="hero-content">
+            <div class="hero-badge">Sacred Buddhist Pilgrimage</div>
+            <h1 class="hero-title">Discovering Shravasti</h1>
+            <p class="hero-subtitle">Where Buddha's Teachings Illuminated the Ancient World</p>
+            <p class="hero-description">
+                Step into the sacred land where Gautama Buddha spent 24 rainy seasons, performed miracles, and shared
+                profound teachings.
+                Shravasti, one of the six largest cities during Buddha's lifetime, stands as a testament to India's rich
+                spiritual heritage.
+                Nestled in the fertile Gangetic plains, this ancient city invites you to explore magnificent
+                monasteries, stupas,
+                and the serene beauty of Suhaildev Wildlife Sanctuary.
+            </p>
+            <a href="#explore" class="hero-btn">Explore Sacred Sites</a>
         </div>
+    </section>
+
+    <!-- Decorative Divider -->
+    <div class="divider-wave">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z">
+            </path>
+        </svg>
     </div>
 
-
-
-    <div class="max-width-1 m-auto hr_shaw">
-        <hr>
-    </div>
-    <div class="m-auto content max-width-1 my-2 my_pic_back">
-        <div class="content-left">
-            <h1>About Me</h1>
-            <p style="font-size: 20px; color: #161616;">I am a curious boy who loves to wander around to create memories
-                and learn new things. More than
-                destinations; I love meeting people and indulge in heartfelt conversations. I find joy in all the small
-                things in life. Sometimes an exchange of smile with a stranger can uplift my mood. Emotions run high in
-                my life. So, I do tend to get very emotional (a bit too much) about the places I like and people I love.
-                A hopeless romantic by nature, this curious boy doesn’t endorse any rude behaviour from anyone. And,
-                hey…I prefer the countryside anytime over cities, anywhere in the world.</p>
-        </div>
-        <div class="content-right">
-            <img src="./img/profileblog.png" alt="iBlog">
-        </div>
-    </div>
-
-    <div class="max-width-1 m-auto hr_shaw">
-        <hr>
-    </div>
-    <div class="m-auto content max-width-1 my-2">
-        <div class="content-left">
-            <h1>About my Blog</h1>
-            <p style="font-size: 20px; color: #161616;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Obcaecati ducimus tempora, numquam libero quis
-                voluptatum, maiores, totam atque impedit perspiciatis eius nisi sint sequi accusantium ipsum magni
-                consequatur odit. Consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor assumenda,
-                voluptate laborum distinctio voluptatem dolorem exercitationem debitis quam est ullam fugit modi fuga
-                corrupti cumque reprehenderit explicabo harum. Molestiae, quam!</p>
-        </div>
-        <div class="content-right">
-            <img src="https://image.freepik.com/free-vector/buddha-silhouette-candlelight-buddhism_8443-54.jpg"
-                alt="iBlog">
-        </div>
-    </div>
-
-
-    <div class="max-width-1 m-auto hr_shaw">
-        <hr>
-    </div>
-    <div class="home-articles max-width-1 m-auto font2">
-        <h2>POPULAR POSTS</h2>
-        <div class="home-article article_box">
-            <div class="home-article-img ">
-                <img src="./img/img1.jpg" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="./html/blogpost.html">
-                    <h3>Anathapindika Stupa / Kachchi Kuti Tourist Places to Visit in Shravasti</h3>
-                </a>
-
-                <div>Shivam Singh</div>
-                <span>07 January | 6 min read</span>
+    <!-- About Me Section -->
+    <section class="about-section">
+        <div class="section-container">
+            <div class="about-card">
+                <div class="about-content">
+                    <div class="section-badge">Travel Enthusiast</div>
+                    <h2 class="section-title">About Your Guide</h2>
+                    <p class="about-text">
+                        Welcome! I'm a wanderer at heart, driven by curiosity and a deep love for meaningful
+                        connections.
+                        My journeys are less about destinations and more about the stories I collect, the people I meet,
+                        and the emotions that color every experience. Whether it's a shared smile with a stranger or
+                        a sunset over ancient ruins, I find profound joy in life's simplest moments.
+                    </p>
+                    <p class="about-text">
+                        Emotions run deep in my travels—I get attached to places and people in ways that transform mere
+                        trips
+                        into lifelong memories. A hopeless romantic who cherishes authenticity and kindness, I've always
+                        preferred
+                        the tranquil countryside over bustling cities. Join me as I share the magic of Shravasti, a
+                        place that
+                        touched my soul and will forever hold a special place in my heart.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">24</div>
+                            <div class="stat-label">Seasons Buddha Spent Here</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">8+</div>
+                            <div class="stat-label">Sacred Sites</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2500+</div>
+                            <div class="stat-label">Years of History</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="./img/profileblog.png" alt="Travel Blogger">
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="home-article article_box">
-            <div class="home-article-img">
-                <img src="./img/img2.jpg" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="./html/blogpost.html">
-                    <h3>Shobnath Jain Temple Tourist Places to Visit in Shravasti</h3>
-                </a>
+    </section>
 
-                <div>Shivam Singh</div>
-                <span>07 January | 6 min read</span>
+    <!-- Why This Blog Section -->
+    <section class="why-blog-section">
+        <div class="section-container">
+            <div class="why-blog-card">
+                <div class="why-blog-image">
+                    <div class="image-frame">
+                        <img src="https://image.freepik.com/free-vector/buddha-silhouette-candlelight-buddhism_8443-54.jpg"
+                            alt="Buddha Meditation">
+                    </div>
+                </div>
+                <div class="why-blog-content">
+                    <div class="section-badge">My Journey</div>
+                    <h2 class="section-title">Why I Created This Blog</h2>
+                    <p class="why-blog-text">
+                        During my pilgrimage to Shravasti, I was moved by the profound peace and spiritual energy that
+                        permeates
+                        this ancient land. Walking through the same grounds where Buddha taught, meditated, and
+                        performed miracles
+                        was a transformative experience that awakened something deep within me.
+                    </p>
+                    <p class="why-blog-text">
+                        I created this blog to share the beauty, history, and spiritual significance of Shravasti with
+                        fellow travelers
+                        and spiritual seekers. Every temple, every stupa, every corner of this sacred city has a story
+                        to tell—stories
+                        of enlightenment, compassion, and the timeless wisdom that continues to inspire millions around
+                        the world.
+                    </p>
+                    <p class="why-blog-text">
+                        Whether you're planning a pilgrimage, seeking historical insights, or simply curious about
+                        Buddhist heritage,
+                        I hope this blog serves as your companion guide to experiencing the magic of Shravasti.
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="home-article article_box">
-            <div class="home-article-img">
-                <img src="./img/img3.jpg" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="./html/blogpost.html">
-                    <h3>Jetavana Monastery Tourist Places to Visit in Shravasti</h3>
-                </a>
+    </section>
 
-                <div>Shivam Singh</div>
-                <span>07 January | 6 min read</span>
+    <!-- Popular Posts Section -->
+    <section class="posts-section" id="explore">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-badge">Must Visit</div>
+                <h2 class="section-title">Sacred Sites of Shravasti</h2>
+                <p class="section-subtitle">Explore the most significant Buddhist monuments and temples in this ancient
+                    holy city</p>
+            </div>
+
+            <div class="posts-grid">
+                <!-- Post 1 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="./img/img1.jpg" alt="Anathapindika Stupa">
+                        <div class="post-category">Ancient Stupa</div>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="./html/blogpost.html">Anathapindika Stupa - Kachchi Kuti</a>
+                        </h3>
+                        <p class="post-excerpt">
+                            The sacred stupa built in honor of Anathapindika, the wealthy merchant who donated Jetavana
+                            Grove to Buddha.
+                            A place of profound meditation and spiritual awakening.
+                        </p>
+                        <div class="post-meta">
+                            <span class="post-author">Shivam Singh</span>
+                            <span class="post-date">07 January · 6 min read</span>
+                        </div>
+                        <a href="./html/blogpost.html" class="post-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Post 2 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="./img/img3.jpg" alt="Jetavana Monastery">
+                        <div class="post-category">Holy Monastery</div>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="./html/blogpost.html">Jetavana Monastery</a>
+                        </h3>
+                        <p class="post-excerpt">
+                            The most important monastery where Buddha spent 19 rainy seasons teaching the Dharma.
+                            Walk through history in this magnificent ancient complex.
+                        </p>
+                        <div class="post-meta">
+                            <span class="post-author">Shivam Singh</span>
+                            <span class="post-date">07 January · 6 min read</span>
+                        </div>
+                        <a href="./html/blogpost.html" class="post-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Post 3 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="./img/img4.jpg" alt="Angulimala Stupa">
+                        <div class="post-category">Sacred Monument</div>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="./html/blogpost.html">Angulimala Stupa - Pakki Kuti</a>
+                        </h3>
+                        <p class="post-excerpt">
+                            The stupa marking the transformation of Angulimala from a feared bandit to an enlightened
+                            monk,
+                            showcasing Buddha's compassion and power of redemption.
+                        </p>
+                        <div class="post-meta">
+                            <span class="post-author">Shivam Singh</span>
+                            <span class="post-date">07 January · 6 min read</span>
+                        </div>
+                        <a href="./html/blogpost.html" class="post-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Post 4 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="./img/img2.jpg" alt="Sobhnath Temple">
+                        <div class="post-category">Jain Temple</div>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="./html/blogpost.html">Sobhnath Jain Temple</a>
+                        </h3>
+                        <p class="post-excerpt">
+                            An exquisite Jain temple dedicated to Lord Sambhavanath, showcasing intricate architecture
+                            and the harmonious coexistence of different faiths in ancient Shravasti.
+                        </p>
+                        <div class="post-meta">
+                            <span class="post-author">Shivam Singh</span>
+                            <span class="post-date">07 January · 6 min read</span>
+                        </div>
+                        <a href="./html/blogpost.html" class="post-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Post 5 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="./img/img5.jpeg" alt="Thai Temple">
+                        <div class="post-category">Modern Temple</div>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="./html/blogpost.html">Daen Mahamongkol Thai Temple</a>
+                        </h3>
+                        <p class="post-excerpt">
+                            A beautiful Thai-style temple built by devotees from Thailand, featuring stunning
+                            architecture
+                            and serene meditation gardens perfect for spiritual contemplation.
+                        </p>
+                        <div class="post-meta">
+                            <span class="post-author">Shivam Singh</span>
+                            <span class="post-date">07 January · 6 min read</span>
+                        </div>
+                        <a href="./html/blogpost.html" class="post-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Post 6 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="./img/img7.jpg" alt="Orajhar">
+                        <div class="post-category">Archaeological Site</div>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="./html/blogpost.html">Orajhar Buddhist Site</a>
+                        </h3>
+                        <p class="post-excerpt">
+                            An important archaeological site revealing ancient Buddhist settlements, with excavated
+                            stupas
+                            and monasteries that offer glimpses into monastic life of the past.
+                        </p>
+                        <div class="post-meta">
+                            <span class="post-author">Shivam Singh</span>
+                            <span class="post-date">07 January · 6 min read</span>
+                        </div>
+                        <a href="./html/blogpost.html" class="post-link">Read More →</a>
+                    </div>
+                </article>
             </div>
         </div>
-        <div class="home-article article_box">
-            <div class="home-article-img">
-                <img src="./img/img4.jpg" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="./html/blogpost.html">
-                    <h3>Angulimala Stupa / Pakki Kuti Tourist Places to Visit in Shravasti</h3>
-                </a>
+    </section>
 
-                <div>Shivam Singh</div>
-                <span>07 January | 6 min read</span>
+    <!-- Travel Info Section -->
+    <section class="travel-info-section">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-badge">Plan Your Visit</div>
+                <h2 class="section-title">Essential Travel Information</h2>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-icon">✈️</div>
+                    <h3>By Air</h3>
+                    <p>Nearest airport is Lucknow (170 km), well-connected to major Indian cities including Delhi,
+                        Mumbai, and Bangalore.</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">🚂</div>
+                    <h3>By Train</h3>
+                    <p>Balrampur (17 km) and Gonda (50 km) are the nearest railway stations with connections to major
+                        cities across India.</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">🚌</div>
+                    <h3>By Road</h3>
+                    <p>Well-connected by road from Lucknow, Gonda, and other UP cities. Regular bus services available
+                        via UPSRTC.</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">🏨</div>
+                    <h3>Accommodation</h3>
+                    <p>Various options including Hotel Lotus Nikko, The Residency, Rahi Tourist Bungalow, and temple
+                        guest houses.</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">🌡️</div>
+                    <h3>Best Time</h3>
+                    <p>October to March offers pleasant weather ideal for exploration. Avoid summer months (April-June).
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">📍</div>
+                    <h3>Nearby Sites</h3>
+                    <p>Lumbini (165 km, Nepal) - Buddha's birthplace, Kapilvastu (198 km) - ancient capital of Shakya
+                        kingdom.</p>
+                </div>
             </div>
         </div>
-        <div class="home-article article_box">
-            <div class="home-article-img">
-                <img src="./img/img5.jpeg" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="./html/blogpost.html">
-                    <h3>Daen Mahamongkol Temple Tourist Places to Visit in Shravasti</h3>
-                </a>
+    </section>
 
-                <div>Shivam Singh</div>
-                <span>07 January | 6 min read</span>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="./img/shravasti-logo.png" alt="Shravasti Logo" width="80px">
+                <p class="footer-tagline">Discovering the Sacred Land of Enlightenment</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="./html/about.html">About</a></li>
+                        <li><a href="./html/location.html">Location</a></li>
+                        <li><a href="./html/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Sacred Sites</h4>
+                    <ul>
+                        <li><a href="./html/blogpost.html">Jetavana Monastery</a></li>
+                        <li><a href="./html/blogpost.html">Anathapindika Stupa</a></li>
+                        <li><a href="./html/blogpost.html">Angulimala Stupa</a></li>
+                        <li><a href="./html/blogpost.html">Thai Temple</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="home-article article_box">
-            <div class="home-article-img">
-                <img src="./img/img6.webp" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="./html/blogpost.html">
-                    <h3>Shobnath Jain Temple Tourist Places to Visit in Shravasti</h3>
-                </a>
-
-                <div>Shivam Singh</div>
-                <span>07 January | 6 min read</span>
-            </div>
+        <div class="footer-bottom">
+            <p>&copy; 2021 Shravasti Travel Blog by Shivam Singh. All Rights Reserved.</p>
+            <p>Made with ❤️ for spiritual seekers and travel enthusiasts</p>
         </div>
-        <div class="home-article article_box">
-            <div class="home-article-img">
-                <img src="./img/img7.jpg" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="./html/blogpost.html">
-                    <h3>Orajhar Buddhist Site Tourist Places to Visit in Shravasti</h3>
-                </a>
-
-                <div>Shivam Singh</div>
-                <span>07 January | 6 min read</span>
-            </div>
-        </div>
-        <div class="home-article article_box">
-            <div class="home-article-img">
-                <img src="./img/img8.jpg" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="./html/blogpost.html">
-                    <h3>Shobnath Jain Temple Tourist Places to Visit in Shravasti</h3>
-                </a>
-
-                <div>Shivam Singh</div>
-                <span>07 January | 6 min read</span>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="max-width-1 m-auto hr_shaw">
-        <hr>
-    </div>
-
-    <div class="boxes">
-        <div class="boxes_under">
-            <h3 class="color2"><i class="fa fa-map-marker"></i>&nbsp;Shravasti</h3>
-            <div class="shravasti-address">
-                <h5 class="add-heading">Accommodation:</h5> Hotel Lotus Nikko, Tel: 05252-265291-93,<br>
-                The Residency, Tel: 8127002700, 05252265200, Email: thesravastiresidency@gmail.com,<br> Rahi Tourist
-                Bungalow (U.P.S.T.D.C.), Katra, Shravasti, Tel: 05252-265302, Email: rahitbshravasti@up-tourism.com,<br>
-                Rahi Tourist Bungalow (U.P.S.T.D.C.), Balrampur Tel: 05263-232456,<br> Hotel Pawan Palace, Tel:
-                9451744076,<br> Buddha Resort (40 km.: Shravasti-Lucknow Road), Bahraich, Tel: 05252-231531.
-                <h5 class="add-heading">Other Accommodation:</h5>
-                Inspection Bungalow, PWD Burmese Temple, Rest House, Chinese Temple Rest House and Jain Daramashala.<br>
-                <h5 class="add-heading">Nearest Tourist Information Centre:</h5>
-                Tourist Bungalow Campus, Balrampur, Tel: 05263-232456
-                <h5 class="add-heading">Nearby Buddhist Places:</h5>
-                Lumbini (165 km - Nepal), Kapilvastu (198km)
-                <h5 class="add-heading">How to Reach:</h5>
-                <div><i class="fa fa-map-marker"></i>&nbsp;<b>By Air-</b><br>
-                    The nearest airport from Shravasti is Lucknow. Lucknow Airport is near about 170 kilometers from
-                    Shravasti. The airport is well connected to other cities in India such as New Delhi, Mumbai, Agra,
-                    Chennai and Bangalore through a range of flights operated by both private as well as public
-                    carriers.
-                </div><br>
-                <div><i class="fa fa-map-marker"></i>&nbsp;<b>By Rail/Train-</b><br>
-                    The nearest railhead is Balrampur that is 17 Kilometers from Shravasti. Nevertheless, Gonda railway
-                    station that is also nearby is a better option when it comes to connectivity. Gonda station is well
-                    connected to other cities in Uttar Pradesh and India such as New Delhi, Mumbai, Kolkata, Agra,
-                    Lucknow,
-                    Bangalore and Ahmedabad etc.</div><br>
-                <div><i class="fa fa-map-marker"></i>&nbsp;<b>By Road-</b><br>
-                    Shravasti is well connected to the rest of Uttar Pradesh by roadways. The nearest mega terminus is
-                    at
-                    Gonda that is 50 kilometers from the downtown Shravasti. Gonda in turn is well connected by bus to
-                    cities like Lucknow, Bareilly, Kanpur, Allahabad, Agra and Mathura. Both Uttar Pradesh State Road
-                    Transport Corporation as well as Private players operates these buses.</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer">
-        <a href="/"><img src="./img/shravasti-logo.png" style="width: 70px; padding: 5px;" alt=""></a>
-        <p>Copyright &copy; 2021 Shivam Singh . All Rights Reserved </p>
-    </div>
+    </footer>
 </body>
 
 </html>

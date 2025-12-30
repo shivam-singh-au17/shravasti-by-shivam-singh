@@ -7,152 +7,521 @@
     <link rel="stylesheet" href="../css/utils.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/mobile.css">
-    <title>Shravasti - by Shivam Singh</title>
+    <title>Search Results - Shravasti Travel Blog</title>
+    <meta name="description" content="Search articles and travel guides about Shravasti's sacred Buddhist sites.">
 </head>
 
 <body>
-    <nav class="navigation max-width-1 m-auto">
-        <div class="nav-left">
-            <a href="../index.html">
-                <span><img src="../img/shravasti-logo.png" width="130px" alt=""></span>
-            </a>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./location.html">Location</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
+    <!-- Navigation -->
+    <nav class="navigation">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="../index.html">
+                    <img src="../img/shravasti-logo.png" width="120px" alt="Shravasti Logo">
+                </a>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./location.html">Location</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-search">
+                <form action="./search.html" method="get">
+                    <input class="search-input" type="text" name="query" placeholder="Search articles...">
+                    <button class="search-btn" type="submit">Search</button>
+                </form>
+            </div>
         </div>
-        <div class="nav-right">
-            <form action="./search.html" method="get">
-                <input class="form-input" type="text" name="query" placeholder="Article Search">
-                <button class="btn">Search</button>
-            </form>
-
-        </div>
-
     </nav>
 
-
-    <div class="max-width-1 m-auto">
-        <hr>
-    </div>
-    <div class="home-articles max-width-1 m-auto font2">
-
-        <h2 style="color: #ffeed0; margin-left: 20px;">Search Results for Blog</h2>
-        <div class="home-article article_box">
-            <div class="home-article-img">
-                <img src="../img/img1.jpg" alt="article">
+    <!-- Search Results Section -->
+    <section class="search-results-section">
+        <div class="section-container">
+            <div class="search-header">
+                <div class="hero-badge">Search Results</div>
+                <h1 class="search-title">Finding articles about: <span id="search-query">"[search term]"</span></h1>
+                <p class="search-subtitle">Explore our collection of articles about Shravasti's sacred sites</p>
             </div>
-            <div class="home-article-content font1">
-                <a href="./blogpost.html">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-                </a>
 
-                <span>Shivam Singh</span>
-                <span>07 January | 6 min read</span>
+            <!-- Search Form -->
+            <div class="search-form-container">
+                <form action="./search.html" method="get" class="search-form-large">
+                    <input class="search-input-large" type="text" name="query"
+                        placeholder="Search for places, experiences, or travel tips..." id="searchInput">
+                    <button class="search-btn-large" type="submit">
+                        <span>🔍</span> Search
+                    </button>
+                </form>
+            </div>
+
+            <!-- Search Results -->
+            <div class="results-info">
+                <p>Found <strong id="results-count">6</strong> articles matching your search</p>
+            </div>
+
+            <div class="posts-grid">
+                <!-- Result 1 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="../img/img3.jpg" alt="Jetavana Monastery">
+                        <div class="post-category">Holy Monastery</div>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="./blogpost.html">Jetavana Monastery - Where Buddha Taught</a>
+                        </h3>
+                        <p class="post-excerpt">
+                            The most important monastery where Buddha spent 19 rainy seasons teaching the Dharma.
+                            Walk through history in this magnificent ancient complex and experience the spiritual
+                            energy.
+                        </p>
+                        <div class="post-meta">
+                            <span class="post-author">Shivam Singh</span>
+                            <span class="post-date">07 January · 8 min read</span>
+                        </div>
+                        <a href="./blogpost.html" class="post-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Result 2 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="../img/img1.jpg" alt="Anathapindika Stupa">
+                        <div class="post-category">Ancient Stupa</div>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="./blogpost.html">Anathapindika Stupa - Kachchi Kuti</a>
+                        </h3>
+                        <p class="post-excerpt">
+                            The sacred stupa built in honor of Anathapindika, the wealthy merchant who donated Jetavana
+                            Grove to Buddha. A place of profound meditation and spiritual awakening.
+                        </p>
+                        <div class="post-meta">
+                            <span class="post-author">Shivam Singh</span>
+                            <span class="post-date">07 January · 6 min read</span>
+                        </div>
+                        <a href="./blogpost.html" class="post-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Result 3 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="../img/img4.jpg" alt="Angulimala Stupa">
+                        <div class="post-category">Sacred Monument</div>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="./blogpost.html">Angulimala Stupa - Pakki Kuti</a>
+                        </h3>
+                        <p class="post-excerpt">
+                            The stupa marking the transformation of Angulimala from a feared bandit to an enlightened
+                            monk, showcasing Buddha's compassion and power of redemption.
+                        </p>
+                        <div class="post-meta">
+                            <span class="post-author">Shivam Singh</span>
+                            <span class="post-date">07 January · 6 min read</span>
+                        </div>
+                        <a href="./blogpost.html" class="post-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Result 4 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="../img/img2.jpg" alt="Sobhnath Temple">
+                        <div class="post-category">Jain Temple</div>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="./blogpost.html">Sobhnath Jain Temple</a>
+                        </h3>
+                        <p class="post-excerpt">
+                            An exquisite Jain temple dedicated to Lord Sambhavanath, showcasing intricate architecture
+                            and the harmonious coexistence of different faiths in ancient Shravasti.
+                        </p>
+                        <div class="post-meta">
+                            <span class="post-author">Shivam Singh</span>
+                            <span class="post-date">07 January · 6 min read</span>
+                        </div>
+                        <a href="./blogpost.html" class="post-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Result 5 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="../img/img5.jpeg" alt="Thai Temple">
+                        <div class="post-category">Modern Temple</div>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="./blogpost.html">Daen Mahamongkol Thai Temple</a>
+                        </h3>
+                        <p class="post-excerpt">
+                            A beautiful Thai-style temple built by devotees from Thailand, featuring stunning
+                            architecture and serene meditation gardens perfect for spiritual contemplation.
+                        </p>
+                        <div class="post-meta">
+                            <span class="post-author">Shivam Singh</span>
+                            <span class="post-date">07 January · 6 min read</span>
+                        </div>
+                        <a href="./blogpost.html" class="post-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Result 6 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="../img/img7.jpg" alt="Orajhar">
+                        <div class="post-category">Archaeological Site</div>
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title">
+                            <a href="./blogpost.html">Orajhar Buddhist Site</a>
+                        </h3>
+                        <p class="post-excerpt">
+                            An important archaeological site revealing ancient Buddhist settlements, with excavated
+                            stupas and monasteries that offer glimpses into monastic life of the past.
+                        </p>
+                        <div class="post-meta">
+                            <span class="post-author">Shivam Singh</span>
+                            <span class="post-date">07 January · 6 min read</span>
+                        </div>
+                        <a href="./blogpost.html" class="post-link">Read More →</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- No Results Message (Hidden by default) -->
+            <div class="no-results" style="display: none;">
+                <div class="no-results-icon">🔍</div>
+                <h2>No Results Found</h2>
+                <p>We couldn't find any articles matching your search. Try different keywords or browse all our articles
+                    below.</p>
+                <a href="../index.html#explore" class="hero-btn">Browse All Articles</a>
+            </div>
+
+            <!-- Search Tips -->
+            <div class="search-tips">
+                <h3>Search Tips</h3>
+                <div class="tips-grid">
+                    <div class="tip-item">
+                        <strong>🎯 Be Specific:</strong>
+                        <p>Try "Jetavana Monastery" instead of just "temple"</p>
+                    </div>
+                    <div class="tip-item">
+                        <strong>📍 Use Location Names:</strong>
+                        <p>Search for "Shravasti," "Ananda Stupa," or specific sites</p>
+                    </div>
+                    <div class="tip-item">
+                        <strong>🕉️ Try Different Terms:</strong>
+                        <p>Use "pilgrimage," "Buddhist site," or "travel guide"</p>
+                    </div>
+                    <div class="tip-item">
+                        <strong>💡 Browse Categories:</strong>
+                        <p>Return to homepage to explore by category</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="home-article article_box">
-            <div class="home-article-img">
-                <img src="../img/img2.jpg" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="./blogpost.html">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-                </a>
+    </section>
 
-                <span>Shivam Singh</span>
-                <span>07 January | 6 min read</span>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="../img/shravasti-logo.png" alt="Shravasti Logo" width="80px">
+                <p class="footer-tagline">Discovering the Sacred Land of Enlightenment</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./location.html">Location</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Sacred Sites</h4>
+                    <ul>
+                        <li><a href="./blogpost.html">Jetavana Monastery</a></li>
+                        <li><a href="./blogpost.html">Anathapindika Stupa</a></li>
+                        <li><a href="./blogpost.html">Angulimala Stupa</a></li>
+                        <li><a href="./blogpost.html">Thai Temple</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="home-article article_box">
-            <div class="home-article-img">
-                <img src="../img/img3.jpg" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="./blogpost.html">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-                </a>
-
-                <span>Shivam Singh</span>
-                <span>07 January | 6 min read</span>
-            </div>
+        <div class="footer-bottom">
+            <p>&copy; 2021 Shravasti Travel Blog by Shivam Singh. All Rights Reserved.</p>
+            <p>Made with ❤️ for spiritual seekers and travel enthusiasts</p>
         </div>
-        <div class="home-article article_box">
-            <div class="home-article-img">
-                <img src="../img/img4.jpg" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="./blogpost.html">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-                </a>
+    </footer>
 
-                <span>Shivam Singh</span>
-                <span>07 January | 6 min read</span>
-            </div>
-        </div>
-        <div class="home-article article_box">
-            <div class="home-article-img">
-                <img src="../img/img5.jpeg" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="./blogpost.html">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-                </a>
+    <script>
+        // Get search query from URL and display it
+        const urlParams = new URLSearchParams(window.location.search);
+        const query = urlParams.get('query');
 
-                <span>Shivam Singh</span>
-                <span>07 January | 6 min read</span>
-            </div>
-        </div>
-        <div class="home-article article_box">
-            <div class="home-article-img">
-                <img src="../img/img6.webp"
-                    alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="./blogpost.html">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-                </a>
+        if (query) {
+            document.getElementById('search-query').textContent = `"${query}"`;
+            document.getElementById('searchInput').value = query;
 
-                <span>Shivam Singh</span>
-                <span>07 January | 6 min read</span>
-            </div>
-        </div>
-        <div class="home-article article_box">
-            <div class="home-article-img">
-                <img src="../img/img7.jpg" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="./blogpost.html">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-                </a>
+            // Simple search logic - filter results based on query
+            // In a real implementation, this would be server-side
+            const posts = document.querySelectorAll('.post-card');
+            let visibleCount = 0;
 
-                <span>Shivam Singh</span>
-                <span>07 January | 6 min read</span>
-            </div>
-        </div>
-        <div class="home-article  article_box">
-            <div class="home-article-img">
-                <img src="../img/img8.jpg" alt="article">
-            </div>
-            <div class="home-article-content font1">
-                <a href="./blogpost.html">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-                </a>
+            posts.forEach(post => {
+                const title = post.querySelector('.post-title').textContent.toLowerCase();
+                const excerpt = post.querySelector('.post-excerpt').textContent.toLowerCase();
+                const category = post.querySelector('.post-category').textContent.toLowerCase();
+                const searchTerm = query.toLowerCase();
 
-                <span>Shivam Singh</span>
-                <span>07 January | 6 min read</span>
-            </div>
-        </div>
+                if (title.includes(searchTerm) || excerpt.includes(searchTerm) || category.includes(searchTerm)) {
+                    post.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    post.style.display = 'none';
+                }
+            });
 
-    </div>
+            // Update results count
+            document.getElementById('results-count').textContent = visibleCount;
 
-    <div class="footer">
-        <a href="../index.html"><img src="../img/shravasti-logo.png"
-                style="width: 70px; padding: 5px;" alt=""></a>
-        <p>Copyright &copy; 2021 Shivam Singh . All Rights Reserved </p>
-    </div>
+            // Show no results message if no posts match
+            if (visibleCount === 0) {
+                document.querySelector('.no-results').style.display = 'block';
+                document.querySelector('.posts-grid').style.display = 'none';
+            }
+        }
+    </script>
+
+    <style>
+        /* Search Results Page Specific Styles */
+        .search-results-section {
+            min-height: 80vh;
+            padding: 6rem 0 3rem;
+            background: linear-gradient(135deg, #fff5e6 0%, #ffffff 100%);
+        }
+
+        .search-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .search-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--dark-text);
+            margin: 1rem 0;
+        }
+
+        .search-title span {
+            color: var(--primary-color);
+        }
+
+        .search-subtitle {
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        /* Large Search Form */
+        .search-form-container {
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .search-form-large {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .search-input-large {
+            flex: 1;
+            padding: 1rem 1.5rem;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-family: 'Poppins', sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        .search-input-large:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(212, 130, 10, 0.1);
+        }
+
+        .search-btn-large {
+            padding: 1rem 2.5rem;
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .search-btn-large:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(212, 130, 10, 0.3);
+        }
+
+        .search-btn-large span {
+            font-size: 1.2rem;
+        }
+
+        /* Results Info */
+        .results-info {
+            margin-bottom: 2rem;
+            padding: 1rem 1.5rem;
+            background: white;
+            border-left: 4px solid var(--primary-color);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .results-info p {
+            margin: 0;
+            color: #666;
+            font-size: 1rem;
+        }
+
+        .results-info strong {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        /* No Results */
+        .no-results {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .no-results-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            opacity: 0.3;
+        }
+
+        .no-results h2 {
+            font-size: 2rem;
+            color: var(--dark-text);
+            margin-bottom: 1rem;
+        }
+
+        .no-results p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        /* Search Tips */
+        .search-tips {
+            margin-top: 4rem;
+            padding: 2rem;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .search-tips h3 {
+            font-size: 1.5rem;
+            color: var(--dark-text);
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .tip-item {
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #fff5e6 0%, #ffffff 100%);
+            border-radius: 10px;
+            border-left: 3px solid var(--primary-color);
+        }
+
+        .tip-item strong {
+            display: block;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .tip-item p {
+            margin: 0;
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        /* Responsive */
+        @media screen and (max-width: 768px) {
+            .search-results-section {
+                padding: 5rem 0 2rem;
+            }
+
+            .search-title {
+                font-size: 1.8rem;
+            }
+
+            .search-form-large {
+                flex-direction: column;
+            }
+
+            .search-btn-large {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .search-form-container {
+                padding: 1.5rem;
+            }
+
+            .tips-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .search-tips {
+                margin-top: 2rem;
+            }
+        }
+    </style>
 </body>
 
 </html>
